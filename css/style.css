@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box; /*Não alterará nada fora do elemento que recebe as alterações*/
+}
+body{
+    font-family: Arial, sans-serif;
+    /* background-color: red; */ 
+    /* para comentar: ctrl+; */
+}
+
+main {
+   display: flex;
+   justify-content: center; /* alinhamento na horizontal*/
+   align-items: center; /* alinhamento na vertical */
+   padding: 25px 0; /*50px = cima e baixo; 0 para laterais*/
+}
+
+.logo{
+    width: 150px;
+}
+
+.login{
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 40px 20px; /*40 pra cima de pra baixo e 20 pras laterais*/
+    margin: 30px;
+}
+
+.login form input {
+    width: 100%;
+    height: 25px;
+    margin: 7px 0;
+    padding: 5px;
+}
+
+.login form button{
+    background-color:#0095f6;
+    color: #fff;
+    padding: 7px 10px;
+    margin: 15px 0;
+    width: 100%;
+    border: none;
+}
